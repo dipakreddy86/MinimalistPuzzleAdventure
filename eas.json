@@ -1,0 +1,16 @@
+{
+    "build": {
+        "development": {
+            "android": {
+                "gradleCommand": ":app:assembleDebug",
+                "withoutCredentials": true
+            }
+        },
+        "production": {
+            "android": {
+                "gradleCommand": ":app:assembleRelease",
+                "withoutCredentials": false
+            }
+        }
+    }
+}

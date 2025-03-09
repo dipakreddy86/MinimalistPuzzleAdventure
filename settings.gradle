@@ -1,0 +1,4 @@
+include ':app'
+rootProject.name = "Minimalist Puzzle Adventure"
+include ':app'
+include ':app'

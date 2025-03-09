@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M60,60m-60,0a60,60 0,1 1,120 0a60,60 0,1 1,-120 0" />
+
+    <!-- Puzzle piece shape -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M30,30L50,30L50,50L70,50L70,30L90,30L90,50L70,70L90,70L90,90L70,90L70,70L50,70L50,90L30,90L30,70L50,50L30,50Z" />
+
+</vector> 

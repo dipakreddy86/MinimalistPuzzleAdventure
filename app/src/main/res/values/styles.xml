@@ -1,0 +1,40 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.MinimalistPuzzleAdventure" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+    </style>
+
+    <!-- Theme without ActionBar -->
+    <style name="Theme.MinimalistPuzzleAdventure.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- Button styles -->
+    <style name="MinimalistButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/button_normal</item>
+        <item name="android:padding">16dp</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <!-- Text styles -->
+    <style name="MinimalistText.Title" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MinimalistText.Subtitle" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="MinimalistText.Body" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+</resources> 
